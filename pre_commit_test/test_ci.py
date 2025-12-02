@@ -1,6 +1,7 @@
-def greet(name: int) -> str:
-    print("Hello, " + name + "!")
-    return 42
+def greet(name: str) -> str:
+    salute = "Hello, " + name + "!"
+    return salute
 
 
-greet("world")
+if __name__ == "__main__":
+    greet("world")
